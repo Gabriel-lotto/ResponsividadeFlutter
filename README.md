@@ -2,11 +2,11 @@
 
 # Constraints
 
-1. Constraints vão para o filho
+- Constraints vão para o filho
     - o widget pai informa os limites que serão o máximo e o mínimo para width e height.
-2. Tamanhos vão para o pai
-    1. widget filho informa quais serão as dimensões
-3. O pai escolhe a posição do widget filho na tela.
+- Tamanhos vão para o pai
+    - widget filho informa quais serão as dimensões
+- O pai escolhe a posição do widget filho na tela.
     1. Dado os limites de altura e largura, e o tamanho que o widget filho vai querer ter, o widget pai que escolhe qual será o posicionamento na tela. 
 - O Widget não pode ter o tamanho que quiser(o pai define os limites, e o child diz o quanto vai ocupar de acordo com esses limites)
 - O Widget não sabe e não decide sua posição na tela, quem faz isso é o pai.
