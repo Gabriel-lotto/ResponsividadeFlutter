@@ -13,7 +13,6 @@
 
 ## Widgets
 
-- Quando precisar que um widget faça overflow na tela, utilizar o widget **OverflowBox**.
 - Quando precisar dar um espaçamento em branco na tela, em vez de usar sizedbox com um valor estático, da pra usar o **FractionallySizedBox** para dar um valor em porcentagem, em vez de estático. Esse widget deve estar wrapado com algum widget adaptativo, ex: **flexible**.
 - **IntrisicHeight** ou **intrisicWidth** pega o maior widget de uma row por exemplo, e define a altura ou largura da row com as dimensões desse widget.
 - Quando for trabalhar com texto e precise q ele for responsivo, usar **Autosizetext**.
